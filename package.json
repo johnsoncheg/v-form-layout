@@ -1,0 +1,29 @@
+{
+  "name": "v-form-layout",
+  "version": "0.0.1",
+  "description": "average divide space of layout",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "vue",
+    "form",
+    "layout"
+  ],
+  "author": "johnsoncheg@163.com",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "rollup": "^1.0.0",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^3.0.0",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
