@@ -18,6 +18,7 @@
             </span>
             <component :is="subItem.cellRender"
               v-bind="subItem.attrs || {}"
+              v-on="subItem.listeners || {}"
               v-else>
             </component>
           </div>
