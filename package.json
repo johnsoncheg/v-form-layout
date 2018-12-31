@@ -4,7 +4,7 @@
   "description": "average divide space of layout",
   "main": "./dist/bundle.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rm -rf dist && rollup -c"
   },
   "keywords": [
     "vue",
